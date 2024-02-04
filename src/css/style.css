@@ -1,5 +1,6 @@
     html,
     body {
+      min-width: 100vw;
       background: #fefefe;
       color: #030303;
       font-family: "Poppins", sans-serif;
@@ -31,7 +32,6 @@
     }
 
     .container {
-
       width: 100%;
       max-width: 690px;
       margin: auto;
@@ -41,7 +41,7 @@
     .profil-informations .profil-picture {
       width: 100px;
       height: 100px;
-      aspect-ratio: fill;
+      object-fit: cover;
       border-radius: 100%;
       border: solid 1px #030303;
       margin-bottom: 10px;
