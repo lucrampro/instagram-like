@@ -1,0 +1,103 @@
+    html,
+    body {
+      background: #fefefe;
+      color: #030303;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    .separator {
+      display: block;
+      height: 0.5px;
+      width: 100%;
+      background: #030303;
+      margin: 25px 0px 0px 0px;
+      opacity: 0.3;
+    }
+
+    header {
+      height: 30px;
+      margin: 20px 0px;
+    }
+
+    header .logo {
+      width: 90px;
+      padding: 0px 10px 0px;
+    }
+
+    .container {
+
+      width: 100%;
+      max-width: 690px;
+      margin: auto;
+      padding: 0px 10px 0px;
+    }
+
+    .profil-informations .profil-picture {
+      width: 100px;
+      height: 100px;
+      aspect-ratio: fill;
+      border-radius: 100%;
+      border: solid 1px #030303;
+      margin-bottom: 10px;
+    }
+
+    .profil-informations .information .name {
+      font-size: 20px;
+      margin: 0px;
+      font-weight: 400;
+    }
+
+    .profil-informations .information .followers {
+      display: flex;
+    }
+
+    .profil-informations .information .followers .number {
+      font-weight: 600;
+    }
+
+    .profil-informations .information .followers p {
+      font-size: 14px;
+      margin: 10px 0px;
+      margin-right: 15px;
+    }
+
+    .profil-informations .information .id {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .profil-informations .information .description {
+      font-size: 14px;
+    }
+
+    .post-title {
+      margin: auto;
+      width: fit-content;
+      text-transform: uppercase;
+      font-size: 12px;
+      border-top: solid 1px #030303;
+    }
+
+    .galerie {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 5px;
+    }
+
+    .galerie div {
+      aspect-ratio: 1;
+    }
+
+    .galerie div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
